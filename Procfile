@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run ML_StreamLit.py
+web: streamlit run --server.enableCORS false --server.port $PORT ML_StreamLit.py
